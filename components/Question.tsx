@@ -9,7 +9,7 @@ type QuestionProps = {
 
 export function Question({ id, text, votes }: QuestionProps) {
   return (
-    <div className="border-atlas-white-300 flex items-center border-t border-r border-l p-6 first:rounded-t-md last:rounded-b-md last:border-b">
+    <div className="flex items-center border-t border-r border-l p-6 first:rounded-t-md last:rounded-b-md last:border-b">
       <div className="mr-2 rounded-xl bg-secondary px-2 text-sm text-white">
         {votes}
       </div>
